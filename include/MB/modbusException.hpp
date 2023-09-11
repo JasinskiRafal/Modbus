@@ -85,7 +85,7 @@ public:
   [[nodiscard]] const char *what() const noexcept override {
     auto og = toString();
     char *str = new char[og.size()];
-    stpcpy(str, og.c_str());
+    strcpy(str, og.c_str());
     return str;
   }
 
