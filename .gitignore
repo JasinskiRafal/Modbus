@@ -43,3 +43,7 @@ compile_commands.json
 .clang_complete
 .cache
 .clangd
+
+# IDEs
+.idea
+.code
